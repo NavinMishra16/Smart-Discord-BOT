@@ -1,10 +1,12 @@
 {
   "name": "discordjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a discord bot Project",
   "main": "bot.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+     
   },
   "keywords": [],
   "author": "",
@@ -15,4 +17,5 @@
     "dotenv": "^16.0.2",
     "node-fetch": "^3.2.10"
   }
+  
 }
