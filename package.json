@@ -3,19 +3,18 @@
   "version": "1.0.0",
   "description": "This is a discord bot Project",
   "main": "bot.js",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-     
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
-    "discord.js": "^14.3.0",
-    "dotenv": "^16.0.2",
-    "node-fetch": "^3.2.10"
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.1.4",
+    "fetch": "^1.1.0",
+    "node": "^20.2.0",
+    "node-fetch": "^2.6.11"
   }
-  
 }

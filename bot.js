@@ -37,12 +37,12 @@ const  fetchDailyCodingChallenge = async () => {
     return response.json()
 }
 
-require('dotenv').config()
-//console.log(process.env.DISCORD_BOT_TOKEN);
+require('dotenv').config();
+const fetch = require("node-fetch");
+console.log(process.env.DISCORD_BOT_TOKEN);
 const { Client,GatewayIntentBits } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.DirectMessages,
     GatewayIntentBits.Guilds,
-    GatewayIntentBits.GuildBans,
     GatewayIntentBits.GuildMessages,
     GatewayIntentBits.MessageContent] });
 
@@ -77,7 +77,7 @@ client.on('messageCreate',async message=>{
  let token = message.content.split(" ");
  if(message.content==='hi')message.reply("Welcome to Server");
    
- else if(token[0]==='!gif'){
+ else if(token[0]==='gif'){
     // Public APIKey so no need to put in env file
     let keyword = "Coding";
     if(token.length>1){
