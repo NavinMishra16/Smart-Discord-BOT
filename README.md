@@ -1,6 +1,31 @@
 
-# Discord Bot
+# Smart-Discord Bot
+# Improvement in Version 2.11
+1. Modular Design, Scalable
+2. Better Error handling
+3. Imporved Performance by Using Command-Handler
 
+   
+# Future Scope 
+1. containerize applications using Docker
+2. Deploy on vps
+
+# Documentation
+````
+Old:
+https://old.discordjs.dev/#/docs/discord.js/14.13.0/general/welcome
+````
+````
+New:
+https://discordjs.guide/#before-you-begin
+````
+````
+https://github.com/JeremyTsaii/leetcode-stats-api
+````
+````
+https://jerrynsh.com/how-i-sync-daily-leetcoding-challenge-to-todoist/
+````
+   
 # About 
 This is was the project, Where  we create the discord bot which can received and sends reply to user 
 it fetches varios end point such as Leetcode, gfg and Tenor and sends messages acordding to message recieved by bot 
@@ -88,16 +113,8 @@ Please adhere to this project's `code of conduct`.
 
 
 ## Demo
-
 Insert gif or link to demo
 
-
-## Future Scope 
-
-1. Migiration of Project from commanjs to ES6
-2. Breaking down different command into different Module 
-3. Migrating to TypeScript from JavaScript 
-4. Server Deployement 
 
 
 
